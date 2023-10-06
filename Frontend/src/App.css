@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+.App{
+    min-height: 100vh;
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ::-webkit-scrollbar{
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(136 , 136, 136 , 0.281);
+}
+::-webkit-scrollbar-thumb :hover{
+    background: #555;
+} */
+
+::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(235, 226, 226);
+}
+
+::-webkit-scrollbar-thumb {
+    /* box-shadow: inset 0 0 10px rgba(53, 51, 51, 0.3); */
+    background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+        box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+        border-radius: 100px;
+}
